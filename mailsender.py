@@ -5,7 +5,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os
 
-#you need to set relevant permissions on your google account to allow sending emails
+#you need to set relevant permissions on your google account to allow sending email
 
 def send_mail(emailid):
 
