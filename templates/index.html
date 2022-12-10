@@ -36,7 +36,7 @@
             placeholder="Eg : Sonu Nigam"
           />
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label for="emailid">Email ID: </label>
           <input
             type="email"
@@ -45,7 +45,7 @@
             id="emailid"
             placeholder="Eg: xyz@gmail.com "
           />
-        </div>
+        </div> -->
 
         <div class="form-group">
           <label for="limit">No. of Songs (Limit) </label>
@@ -53,6 +53,7 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="{{ url_for('.download_file') }}">Download</a>
       </form>
     </div>
 
